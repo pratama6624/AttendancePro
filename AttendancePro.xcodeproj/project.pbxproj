@@ -51,9 +51,13 @@
 		417A6DE42C4EA86B00AA6408 /* AttendancePro */ = {
 			isa = PBXGroup;
 			children = (
-				417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */,
-				417A6DE72C4EA86B00AA6408 /* ContentView.swift */,
-				417A6DE92C4EA86D00AA6408 /* Assets.xcassets */,
+				417A6DF92C4EAA7400AA6408 /* App */,
+				417A6DF82C4EAA6C00AA6408 /* Resources */,
+				417A6DF72C4EAA6100AA6408 /* Utilities */,
+				417A6DF62C4EAA5500AA6408 /* Services */,
+				417A6DF52C4EAA3900AA6408 /* Models */,
+				417A6DF42C4EAA3300AA6408 /* Views */,
+				417A6DF32C4EAA2100AA6408 /* ViewModels */,
 				417A6DEB2C4EA86D00AA6408 /* Preview Content */,
 			);
 			path = AttendancePro;
@@ -65,6 +69,58 @@
 				417A6DEC2C4EA86D00AA6408 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		417A6DF32C4EAA2100AA6408 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		417A6DF42C4EAA3300AA6408 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		417A6DF52C4EAA3900AA6408 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		417A6DF62C4EAA5500AA6408 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		417A6DF72C4EAA6100AA6408 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		417A6DF82C4EAA6C00AA6408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				417A6DE92C4EA86D00AA6408 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		417A6DF92C4EAA7400AA6408 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */,
+				417A6DE72C4EA86B00AA6408 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
