@@ -19,6 +19,7 @@
 		417A6DE72C4EA86B00AA6408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		417A6DE92C4EA86D00AA6408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417A6DEC2C4EA86D00AA6408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		417A6DFA2C4EAB8500AA6408 /* README.md.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		417A6DD92C4EA86B00AA6408 = {
 			isa = PBXGroup;
 			children = (
+				417A6DFA2C4EAB8500AA6408 /* README.md.md */,
 				417A6DE42C4EA86B00AA6408 /* AttendancePro */,
 				417A6DE32C4EA86B00AA6408 /* Products */,
 			);
