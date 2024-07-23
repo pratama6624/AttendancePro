@@ -33,6 +33,10 @@
 		417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2B2C4F38B100AA6408 /* DashboardView.swift */; };
 		417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2D2C4F38D000AA6408 /* ProfileView.swift */; };
 		417A6E302C4F38F200AA6408 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2F2C4F38F200AA6408 /* SettingsView.swift */; };
+		417A6E322C4F39E100AA6408 /* AttendanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E312C4F39E100AA6408 /* AttendanceModel.swift */; };
+		417A6E342C4F3A0100AA6408 /* LeaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E332C4F3A0100AA6408 /* LeaveModel.swift */; };
+		417A6E362C4F3A1C00AA6408 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E352C4F3A1C00AA6408 /* ScheduleModel.swift */; };
+		417A6E382C4F3A3800AA6408 /* NotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E372C4F3A3800AA6408 /* NotificationsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		417A6E2B2C4F38B100AA6408 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		417A6E2D2C4F38D000AA6408 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		417A6E2F2C4F38F200AA6408 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		417A6E312C4F39E100AA6408 /* AttendanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceModel.swift; sourceTree = "<group>"; };
+		417A6E332C4F3A0100AA6408 /* LeaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveModel.swift; sourceTree = "<group>"; };
+		417A6E352C4F3A1C00AA6408 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		417A6E372C4F3A3800AA6408 /* NotificationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +261,10 @@
 		417A6E102C4F308000AA6408 /* Employee */ = {
 			isa = PBXGroup;
 			children = (
+				417A6E312C4F39E100AA6408 /* AttendanceModel.swift */,
+				417A6E332C4F3A0100AA6408 /* LeaveModel.swift */,
+				417A6E352C4F3A1C00AA6408 /* ScheduleModel.swift */,
+				417A6E372C4F3A3800AA6408 /* NotificationsModel.swift */,
 			);
 			path = Employee;
 			sourceTree = "<group>";
@@ -348,9 +360,12 @@
 				417A6E072C4F2AFE00AA6408 /* LoginView.swift in Sources */,
 				417A6E012C4EB25000AA6408 /* WelcomeOne.swift in Sources */,
 				417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */,
+				417A6E322C4F39E100AA6408 /* AttendanceModel.swift in Sources */,
 				417A6E222C4F36AA00AA6408 /* ManagerNotificationsView.swift in Sources */,
 				417A6E1E2C4F365E00AA6408 /* ApproveLeaveView.swift in Sources */,
 				417A6E302C4F38F200AA6408 /* SettingsView.swift in Sources */,
+				417A6E342C4F3A0100AA6408 /* LeaveModel.swift in Sources */,
+				417A6E362C4F3A1C00AA6408 /* ScheduleModel.swift in Sources */,
 				417A6E2A2C4F37F300AA6408 /* AccessManagementView.swift in Sources */,
 				417A6E032C4EB25D00AA6408 /* WelcomeTwo.swift in Sources */,
 				417A6E202C4F368600AA6408 /* AttendanceReportsView.swift in Sources */,
@@ -360,6 +375,7 @@
 				417A6E092C4F2B2900AA6408 /* RegisterView.swift in Sources */,
 				417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */,
 				417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */,
+				417A6E382C4F3A3800AA6408 /* NotificationsModel.swift in Sources */,
 				417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */,
 				417A6E052C4EB26700AA6408 /* WelcomeThree.swift in Sources */,
 				417A6E1A2C4F316D00AA6408 /* NotificationsView.swift in Sources */,
