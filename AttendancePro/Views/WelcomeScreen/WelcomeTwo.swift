@@ -18,12 +18,13 @@ struct WelcomeTwo: View {
                 .padding(.bottom, 20)
             
             VStack {
-                Text("\"Efficient Scheduling and Leave Management\"")
-                    .font(.subheadline)
+                Text("\"Efficient Scheduling\"")
+                    .font(.headline)
+                    .bold()
                     .padding(.top, 20)
-                    .padding(.bottom, 5)
+                    .padding(.bottom, 10)
                 Text("Manage employee schedules and leave requests effortlessly with intuitive tools")
-                    .font(.caption2)
+                    .font(.caption)
                     .multilineTextAlignment(.center)
                     .frame(width: UIScreen.main.bounds.width - 100)
             }
@@ -32,7 +33,7 @@ struct WelcomeTwo: View {
             Spacer()
         }
         .frame(width: UIScreen.main.bounds.width)
-        .background(Color("BrandColor", bundle: Bundle.main))
+        .background(Color("BrandColor3", bundle: Bundle.main))
     }
 }
 

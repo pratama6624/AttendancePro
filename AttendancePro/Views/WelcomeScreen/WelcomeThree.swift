@@ -19,11 +19,12 @@ struct WelcomeThree: View {
             
             VStack {
                 Text("\"Integrated Payroll Solutions\"")
-                    .font(.subheadline)
+                    .font(.headline)
+                    .bold()
                     .padding(.top, 20)
-                    .padding(.bottom, 5)
+                    .padding(.bottom, 10)
                 Text("Seamlessly connect attendance data with payroll for accurate and timely payments")
-                    .font(.caption2)
+                    .font(.caption)
                     .multilineTextAlignment(.center)
                     .frame(width: UIScreen.main.bounds.width - 100)
             }
@@ -32,7 +33,7 @@ struct WelcomeThree: View {
             Spacer()
         }
         .frame(width: UIScreen.main.bounds.width)
-        .background(Color("BrandColor", bundle: Bundle.main))
+        .background(Color.white)
     }
 }
 

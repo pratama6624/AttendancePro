@@ -19,11 +19,12 @@ struct WelcomeOne: View {
             
             VStack {
                 Text("\"Streamline Your Attendance Managemen\"")
-                    .font(.subheadline)
+                    .font(.headline)
+                    .bold()
                     .padding(.top, 20)
-                    .padding(.bottom, 5)
+                    .padding(.bottom, 10)
                 Text("Simplify your workflow with real-time tracking and automated reports")
-                    .font(.caption2)
+                    .font(.caption)
                     .multilineTextAlignment(.center)
                     .frame(width: UIScreen.main.bounds.width - 100)
             }
