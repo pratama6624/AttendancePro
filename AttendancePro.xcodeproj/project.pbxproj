@@ -22,6 +22,10 @@
 		417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E152C4F312600AA6408 /* LeaveRequestView.swift */; };
 		417A6E182C4F314800AA6408 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E172C4F314800AA6408 /* ScheduleView.swift */; };
 		417A6E1A2C4F316D00AA6408 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E192C4F316D00AA6408 /* NotificationsView.swift */; };
+		417A6E1C2C4F363900AA6408 /* ManageScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E1B2C4F363900AA6408 /* ManageScheduleView.swift */; };
+		417A6E1E2C4F365E00AA6408 /* ApproveLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E1D2C4F365E00AA6408 /* ApproveLeaveView.swift */; };
+		417A6E202C4F368600AA6408 /* AttendanceReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E1F2C4F368600AA6408 /* AttendanceReportsView.swift */; };
+		417A6E222C4F36AA00AA6408 /* ManagerNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E212C4F36AA00AA6408 /* ManagerNotificationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		417A6E152C4F312600AA6408 /* LeaveRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequestView.swift; sourceTree = "<group>"; };
 		417A6E172C4F314800AA6408 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		417A6E192C4F316D00AA6408 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		417A6E1B2C4F363900AA6408 /* ManageScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageScheduleView.swift; sourceTree = "<group>"; };
+		417A6E1D2C4F365E00AA6408 /* ApproveLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproveLeaveView.swift; sourceTree = "<group>"; };
+		417A6E1F2C4F368600AA6408 /* AttendanceReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceReportsView.swift; sourceTree = "<group>"; };
+		417A6E212C4F36AA00AA6408 /* ManagerNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerNotificationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +214,10 @@
 		417A6E0E2C4F2FA300AA6408 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				417A6E1B2C4F363900AA6408 /* ManageScheduleView.swift */,
+				417A6E1D2C4F365E00AA6408 /* ApproveLeaveView.swift */,
+				417A6E1F2C4F368600AA6408 /* AttendanceReportsView.swift */,
+				417A6E212C4F36AA00AA6408 /* ManagerNotificationsView.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -308,11 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417A6E1C2C4F363900AA6408 /* ManageScheduleView.swift in Sources */,
 				417A6DFF2C4EAF0C00AA6408 /* WelcomeScreen.swift in Sources */,
 				417A6E072C4F2AFE00AA6408 /* LoginView.swift in Sources */,
 				417A6E012C4EB25000AA6408 /* WelcomeOne.swift in Sources */,
 				417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */,
+				417A6E222C4F36AA00AA6408 /* ManagerNotificationsView.swift in Sources */,
+				417A6E1E2C4F365E00AA6408 /* ApproveLeaveView.swift in Sources */,
 				417A6E032C4EB25D00AA6408 /* WelcomeTwo.swift in Sources */,
+				417A6E202C4F368600AA6408 /* AttendanceReportsView.swift in Sources */,
 				417A6E182C4F314800AA6408 /* ScheduleView.swift in Sources */,
 				417A6DE82C4EA86B00AA6408 /* ContentView.swift in Sources */,
 				417A6E092C4F2B2900AA6408 /* RegisterView.swift in Sources */,
