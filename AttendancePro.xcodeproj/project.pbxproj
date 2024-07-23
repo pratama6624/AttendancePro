@@ -37,6 +37,10 @@
 		417A6E342C4F3A0100AA6408 /* LeaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E332C4F3A0100AA6408 /* LeaveModel.swift */; };
 		417A6E362C4F3A1C00AA6408 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E352C4F3A1C00AA6408 /* ScheduleModel.swift */; };
 		417A6E382C4F3A3800AA6408 /* NotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E372C4F3A3800AA6408 /* NotificationsModel.swift */; };
+		417A6E3A2C4F3B1400AA6408 /* TeamScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E392C4F3B1400AA6408 /* TeamScheduleModel.swift */; };
+		417A6E3C2C4F3B3100AA6408 /* LeaveApprovalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E3B2C4F3B3100AA6408 /* LeaveApprovalModel.swift */; };
+		417A6E3E2C4F3B4B00AA6408 /* TeamAttendanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E3D2C4F3B4B00AA6408 /* TeamAttendanceModel.swift */; };
+		417A6E402C4F3B6A00AA6408 /* ManagerNotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E3F2C4F3B6A00AA6408 /* ManagerNotificationsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		417A6E332C4F3A0100AA6408 /* LeaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveModel.swift; sourceTree = "<group>"; };
 		417A6E352C4F3A1C00AA6408 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
 		417A6E372C4F3A3800AA6408 /* NotificationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsModel.swift; sourceTree = "<group>"; };
+		417A6E392C4F3B1400AA6408 /* TeamScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamScheduleModel.swift; sourceTree = "<group>"; };
+		417A6E3B2C4F3B3100AA6408 /* LeaveApprovalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveApprovalModel.swift; sourceTree = "<group>"; };
+		417A6E3D2C4F3B4B00AA6408 /* TeamAttendanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamAttendanceModel.swift; sourceTree = "<group>"; };
+		417A6E3F2C4F3B6A00AA6408 /* ManagerNotificationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerNotificationsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +287,10 @@
 		417A6E122C4F309600AA6408 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				417A6E392C4F3B1400AA6408 /* TeamScheduleModel.swift */,
+				417A6E3B2C4F3B3100AA6408 /* LeaveApprovalModel.swift */,
+				417A6E3D2C4F3B4B00AA6408 /* TeamAttendanceModel.swift */,
+				417A6E3F2C4F3B6A00AA6408 /* ManagerNotificationsModel.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -353,10 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417A6E402C4F3B6A00AA6408 /* ManagerNotificationsModel.swift in Sources */,
 				417A6E1C2C4F363900AA6408 /* ManageScheduleView.swift in Sources */,
 				417A6E282C4F37D600AA6408 /* PayrollIntegrationView.swift in Sources */,
 				417A6DFF2C4EAF0C00AA6408 /* WelcomeScreen.swift in Sources */,
 				417A6E242C4F378B00AA6408 /* SystemConfigurationView.swift in Sources */,
+				417A6E3C2C4F3B3100AA6408 /* LeaveApprovalModel.swift in Sources */,
 				417A6E072C4F2AFE00AA6408 /* LoginView.swift in Sources */,
 				417A6E012C4EB25000AA6408 /* WelcomeOne.swift in Sources */,
 				417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */,
@@ -375,12 +389,14 @@
 				417A6E092C4F2B2900AA6408 /* RegisterView.swift in Sources */,
 				417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */,
 				417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */,
+				417A6E3E2C4F3B4B00AA6408 /* TeamAttendanceModel.swift in Sources */,
 				417A6E382C4F3A3800AA6408 /* NotificationsModel.swift in Sources */,
 				417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */,
 				417A6E052C4EB26700AA6408 /* WelcomeThree.swift in Sources */,
 				417A6E1A2C4F316D00AA6408 /* NotificationsView.swift in Sources */,
 				417A6E0B2C4F2B3700AA6408 /* ForgotPasswordView.swift in Sources */,
 				417A6E142C4F30EE00AA6408 /* AttendanceRecordingView.swift in Sources */,
+				417A6E3A2C4F3B1400AA6408 /* TeamScheduleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
