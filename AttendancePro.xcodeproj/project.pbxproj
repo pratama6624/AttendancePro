@@ -30,6 +30,9 @@
 		417A6E262C4F37B300AA6408 /* EmployeeDataManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E252C4F37B300AA6408 /* EmployeeDataManagementView.swift */; };
 		417A6E282C4F37D600AA6408 /* PayrollIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E272C4F37D600AA6408 /* PayrollIntegrationView.swift */; };
 		417A6E2A2C4F37F300AA6408 /* AccessManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E292C4F37F300AA6408 /* AccessManagementView.swift */; };
+		417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2B2C4F38B100AA6408 /* DashboardView.swift */; };
+		417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2D2C4F38D000AA6408 /* ProfileView.swift */; };
+		417A6E302C4F38F200AA6408 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E2F2C4F38F200AA6408 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		417A6E252C4F37B300AA6408 /* EmployeeDataManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataManagementView.swift; sourceTree = "<group>"; };
 		417A6E272C4F37D600AA6408 /* PayrollIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollIntegrationView.swift; sourceTree = "<group>"; };
 		417A6E292C4F37F300AA6408 /* AccessManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessManagementView.swift; sourceTree = "<group>"; };
+		417A6E2B2C4F38B100AA6408 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		417A6E2D2C4F38D000AA6408 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		417A6E2F2C4F38F200AA6408 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +243,9 @@
 		417A6E0F2C4F2FB600AA6408 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				417A6E2B2C4F38B100AA6408 /* DashboardView.swift */,
+				417A6E2D2C4F38D000AA6408 /* ProfileView.swift */,
+				417A6E2F2C4F38F200AA6408 /* SettingsView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -341,6 +350,7 @@
 				417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */,
 				417A6E222C4F36AA00AA6408 /* ManagerNotificationsView.swift in Sources */,
 				417A6E1E2C4F365E00AA6408 /* ApproveLeaveView.swift in Sources */,
+				417A6E302C4F38F200AA6408 /* SettingsView.swift in Sources */,
 				417A6E2A2C4F37F300AA6408 /* AccessManagementView.swift in Sources */,
 				417A6E032C4EB25D00AA6408 /* WelcomeTwo.swift in Sources */,
 				417A6E202C4F368600AA6408 /* AttendanceReportsView.swift in Sources */,
@@ -349,6 +359,8 @@
 				417A6E262C4F37B300AA6408 /* EmployeeDataManagementView.swift in Sources */,
 				417A6E092C4F2B2900AA6408 /* RegisterView.swift in Sources */,
 				417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */,
+				417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */,
+				417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */,
 				417A6E052C4EB26700AA6408 /* WelcomeThree.swift in Sources */,
 				417A6E1A2C4F316D00AA6408 /* NotificationsView.swift in Sources */,
 				417A6E0B2C4F2B3700AA6408 /* ForgotPasswordView.swift in Sources */,
