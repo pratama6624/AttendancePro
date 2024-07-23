@@ -33,6 +33,7 @@ struct ProfileView: View {
                     Text("Vellyne Eleeya Xaviera")
                         .font(.headline)
                         .bold()
+                        .foregroundStyle(Color("BasicColor", bundle: Bundle.main))
                         .padding(.top, 10)
                     
                     Text("Office Staff")

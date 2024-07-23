@@ -45,6 +45,7 @@
 		417A6E442C4F3BF000AA6408 /* EmployeeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E432C4F3BF000AA6408 /* EmployeeDataModel.swift */; };
 		417A6E462C4F3C0B00AA6408 /* PayrollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E452C4F3C0B00AA6408 /* PayrollModel.swift */; };
 		417A6E482C4F3C2400AA6408 /* AccessControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E472C4F3C2400AA6408 /* AccessControlModel.swift */; };
+		41F444CC2C50121700929CA7 /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F444CB2C50121700929CA7 /* TabItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		417A6E432C4F3BF000AA6408 /* EmployeeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataModel.swift; sourceTree = "<group>"; };
 		417A6E452C4F3C0B00AA6408 /* PayrollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollModel.swift; sourceTree = "<group>"; };
 		417A6E472C4F3C2400AA6408 /* AccessControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlModel.swift; sourceTree = "<group>"; };
+		41F444CB2C50121700929CA7 /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		417A6DF52C4EAA3900AA6408 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				41F444CA2C5011F500929CA7 /* View */,
 				417A6E122C4F309600AA6408 /* Manager */,
 				417A6E112C4F308A00AA6408 /* AdminHR */,
 				417A6E102C4F308000AA6408 /* Employee */,
@@ -307,6 +310,14 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		41F444CA2C5011F500929CA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41F444CB2C50121700929CA7 /* TabItemModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +392,7 @@
 				417A6E1C2C4F363900AA6408 /* ManageScheduleView.swift in Sources */,
 				417A6E282C4F37D600AA6408 /* PayrollIntegrationView.swift in Sources */,
 				417A6E442C4F3BF000AA6408 /* EmployeeDataModel.swift in Sources */,
+				41F444CC2C50121700929CA7 /* TabItemModel.swift in Sources */,
 				417A6DFF2C4EAF0C00AA6408 /* WelcomeScreen.swift in Sources */,
 				417A6E242C4F378B00AA6408 /* SystemConfigurationView.swift in Sources */,
 				417A6E3C2C4F3B3100AA6408 /* LeaveApprovalModel.swift in Sources */,
