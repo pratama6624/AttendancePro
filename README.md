@@ -1,6 +1,6 @@
 # AttendancePro
 
-AttendancePro adalah aplikasi HR yang dirancang untuk membantu perusahaan dalam mengelola sistem absensi karyawan dengan lebih efisien. Dengan fitur-fitur seperti pencatatan kehadiran digital, manajemen jadwal, laporan kehadiran, dan integrasi dengan sistem penggajian, aplikasi ini memungkinkan perusahaan untuk memantau dan menganalisis kehadiran karyawan secara real
+AttendancePro is an HR application designed to help companies manage employee attendance systems more efficiently. With features such as digital attendance recording, schedule management, attendance reports, and integration with payroll systems, this application allows companies to monitor and analyze employee attendance in real time
 
 ## Features
 
