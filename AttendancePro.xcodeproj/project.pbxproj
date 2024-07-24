@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41756A8A2C50135900A42025 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756A892C50135900A42025 /* CustomTabBarView.swift */; };
+		41756A8C2C5013BC00A42025 /* TabCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756A8B2C5013BC00A42025 /* TabCustomView.swift */; };
 		417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */; };
 		417A6DE82C4EA86B00AA6408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6DE72C4EA86B00AA6408 /* ContentView.swift */; };
 		417A6DEA2C4EA86D00AA6408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A6DE92C4EA86D00AA6408 /* Assets.xcassets */; };
@@ -46,9 +48,12 @@
 		417A6E462C4F3C0B00AA6408 /* PayrollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E452C4F3C0B00AA6408 /* PayrollModel.swift */; };
 		417A6E482C4F3C2400AA6408 /* AccessControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6E472C4F3C2400AA6408 /* AccessControlModel.swift */; };
 		41F444CC2C50121700929CA7 /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F444CB2C50121700929CA7 /* TabItemModel.swift */; };
+		41F444CF2C5012D200929CA7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F444CE2C5012D200929CA7 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41756A892C50135900A42025 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		41756A8B2C5013BC00A42025 /* TabCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCustomView.swift; sourceTree = "<group>"; };
 		417A6DE22C4EA86B00AA6408 /* AttendancePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendancePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceProApp.swift; sourceTree = "<group>"; };
 		417A6DE72C4EA86B00AA6408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 		417A6E452C4F3C0B00AA6408 /* PayrollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollModel.swift; sourceTree = "<group>"; };
 		417A6E472C4F3C2400AA6408 /* AccessControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlModel.swift; sourceTree = "<group>"; };
 		41F444CB2C50121700929CA7 /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
+		41F444CE2C5012D200929CA7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 		417A6DF42C4EAA3300AA6408 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				41F444CD2C5012A400929CA7 /* Components */,
 				417A6DFD2C4EAEF300AA6408 /* WelcomeScreen */,
 				417A6DFB2C4EAC2900AA6408 /* Auth */,
 				417A6DFC2C4EAC3000AA6408 /* Main */,
@@ -273,6 +280,7 @@
 				417A6E2B2C4F38B100AA6408 /* DashboardView.swift */,
 				417A6E2D2C4F38D000AA6408 /* ProfileView.swift */,
 				417A6E2F2C4F38F200AA6408 /* SettingsView.swift */,
+				41756A8B2C5013BC00A42025 /* TabCustomView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -316,6 +324,15 @@
 				41F444CB2C50121700929CA7 /* TabItemModel.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		41F444CD2C5012A400929CA7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				41F444CE2C5012D200929CA7 /* CustomTabView.swift */,
+				41756A892C50135900A42025 /* CustomTabBarView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +414,8 @@
 				417A6E242C4F378B00AA6408 /* SystemConfigurationView.swift in Sources */,
 				417A6E3C2C4F3B3100AA6408 /* LeaveApprovalModel.swift in Sources */,
 				417A6E072C4F2AFE00AA6408 /* LoginView.swift in Sources */,
+				41756A8A2C50135900A42025 /* CustomTabBarView.swift in Sources */,
+				41756A8C2C5013BC00A42025 /* TabCustomView.swift in Sources */,
 				417A6E012C4EB25000AA6408 /* WelcomeOne.swift in Sources */,
 				417A6E162C4F312600AA6408 /* LeaveRequestView.swift in Sources */,
 				417A6E322C4F39E100AA6408 /* AttendanceModel.swift in Sources */,
@@ -411,6 +430,7 @@
 				417A6E182C4F314800AA6408 /* ScheduleView.swift in Sources */,
 				417A6DE82C4EA86B00AA6408 /* ContentView.swift in Sources */,
 				417A6E262C4F37B300AA6408 /* EmployeeDataManagementView.swift in Sources */,
+				41F444CF2C5012D200929CA7 /* CustomTabView.swift in Sources */,
 				417A6E092C4F2B2900AA6408 /* RegisterView.swift in Sources */,
 				417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */,
 				417A6E2E2C4F38D000AA6408 /* ProfileView.swift in Sources */,
