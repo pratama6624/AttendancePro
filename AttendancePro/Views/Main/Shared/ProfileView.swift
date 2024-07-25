@@ -10,6 +10,7 @@ import SwiftUI
 // UI for user profile management
 struct ProfileView: View {
     var body: some View {
+        ZStack {
             VStack(alignment: .leading) {
                 HStack {
                     Text("Profile")
@@ -189,7 +190,7 @@ struct ProfileView: View {
                         }
                         
                         Divider()
-
+                        
                         
                         Text("Settings")
                             .font(.system(size: 15))
@@ -319,6 +320,34 @@ struct ProfileView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .navigationTitle("Profile")
             .padding(.bottom, 20)
+            
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    HStack {
+                        Image(systemName: "arrow.right.square")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 15)
+                            .bold()
+                        
+                        Text("Clock In")
+                            .font(.headline)
+                    }
+                    .foregroundStyle(Color.white)
+                    .padding(.all, 20)
+                    .background(Color("BrandColor2", bundle: Bundle.main))
+                    .cornerRadius(30)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 30)
+                            .stroke(Color.white, lineWidth: 2)
+                    )
+                }
+            }
+            .padding(.trailing, 20)
+            .padding(.bottom, 60)
+        }
     }
 }
 

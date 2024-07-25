@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		41756A8A2C50135900A42025 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756A892C50135900A42025 /* CustomTabBarView.swift */; };
 		41756A8C2C5013BC00A42025 /* TabCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756A8B2C5013BC00A42025 /* TabCustomView.swift */; };
+		41756A8E2C52A2AD00A42025 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756A8D2C52A2AD00A42025 /* TimetableView.swift */; };
 		417A6DE62C4EA86B00AA6408 /* AttendanceProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */; };
 		417A6DE82C4EA86B00AA6408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A6DE72C4EA86B00AA6408 /* ContentView.swift */; };
 		417A6DEA2C4EA86D00AA6408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A6DE92C4EA86D00AA6408 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		41756A892C50135900A42025 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		41756A8B2C5013BC00A42025 /* TabCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCustomView.swift; sourceTree = "<group>"; };
+		41756A8D2C52A2AD00A42025 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		417A6DE22C4EA86B00AA6408 /* AttendancePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendancePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417A6DE52C4EA86B00AA6408 /* AttendanceProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceProApp.swift; sourceTree = "<group>"; };
 		417A6DE72C4EA86B00AA6408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				417A6E152C4F312600AA6408 /* LeaveRequestView.swift */,
 				417A6E172C4F314800AA6408 /* ScheduleView.swift */,
 				417A6E192C4F316D00AA6408 /* NotificationsView.swift */,
+				41756A8D2C52A2AD00A42025 /* TimetableView.swift */,
 			);
 			path = Employee;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				417A6E3E2C4F3B4B00AA6408 /* TeamAttendanceModel.swift in Sources */,
 				417A6E382C4F3A3800AA6408 /* NotificationsModel.swift in Sources */,
 				417A6E2C2C4F38B100AA6408 /* DashboardView.swift in Sources */,
+				41756A8E2C52A2AD00A42025 /* TimetableView.swift in Sources */,
 				417A6E462C4F3C0B00AA6408 /* PayrollModel.swift in Sources */,
 				417A6E052C4EB26700AA6408 /* WelcomeThree.swift in Sources */,
 				417A6E1A2C4F316D00AA6408 /* NotificationsView.swift in Sources */,
