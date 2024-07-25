@@ -10,7 +10,7 @@ import SwiftUI
 struct TabCustomView: View {
     var body: some View {
         CustomTabView(tabItems: [
-            TabItemModel(title: "Home", icon: "house", view: AnyView(ProfileView())),
+            TabItemModel(title: "Home", icon: "house", view: AnyView(DashboardView())),
             TabItemModel(title: "Timetable", icon: "clock", view: AnyView(WelcomeOne())),
             TabItemModel(title: "Activity", icon: "calendar.day.timeline.left", view: AnyView(WelcomeOne())),
             TabItemModel(title: "Notification", icon: "bell", view: AnyView(WelcomeOne())),

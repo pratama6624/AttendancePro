@@ -318,6 +318,7 @@ struct ProfileView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .navigationTitle("Profile")
+            .padding(.bottom, 20)
     }
 }
 
