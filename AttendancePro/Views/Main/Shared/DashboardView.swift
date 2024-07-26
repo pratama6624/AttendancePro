@@ -132,11 +132,11 @@ struct DashboardView: View {
                             .cornerRadius(10)
                             
                             VStack(spacing: 5) {
-                                Image(systemName: "chair.lounge")
+                                Image(systemName: "list.dash.header.rectangle")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 30, height: 30)
-                                Text("Leave")
+                                Text("Report")
                                     .font(.system(size: 13))
                             }
                             .frame(maxWidth: .infinity, maxHeight: 60)
