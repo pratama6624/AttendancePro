@@ -12,7 +12,7 @@ struct TabCustomView: View {
         CustomTabView(tabItems: [
             TabItemModel(title: "Home", icon: "house", view: AnyView(DashboardView())),
             TabItemModel(title: "Timetable", icon: "clock", view: AnyView(TimetableView())),
-            TabItemModel(title: "Activity", icon: "calendar.day.timeline.left", view: AnyView(WelcomeOne())),
+            TabItemModel(title: "Activity", icon: "calendar.day.timeline.left", view: AnyView(ActivityView())),
             TabItemModel(title: "Notification", icon: "bell", view: AnyView(WelcomeOne())),
             TabItemModel(title: "Profile", icon: "person", view: AnyView(ProfileView()))
         ])
