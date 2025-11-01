@@ -1,129 +1,61 @@
-# AttendancePro
+# HRPro
 
-AttendancePro is an HR application designed to help companies manage employee attendance systems more efficiently. With features such as digital attendance recording, schedule management, attendance reports, and integration with payroll systems, this application allows companies to monitor and analyze employee attendance in real time
+# Attendance Management App - Concept Mobile Design
 
-## Features
+<img width="700" height="506" alt="Image" src="https://github.com/user-attachments/assets/0775142c-66eb-4f94-ab49-5d342fdf4b5c" />
 
-### Main Dashboard
-- Displays a summary of employee attendance.
-- Attendance and absence statistics.
+A mobile UI concept for an Attendance Management System, designed to simplify employee daily activities such as clock-in, tracking work hours, and managing leave or overtime requests.  
+Built as a personal design project to showcase clean UI layout, structured navigation, and employee-centered workflow design.
 
-### Attendance Recording
-- Employees can check-in and check-out digitally.
-- Automatic recording of arrival and departure times.
+---
 
-### Schedule Management
-- Creation and management of work schedules.
-- Notifications about schedule changes.
+## 1. Overview
+This project focuses on creating a modern and efficient mobile interface for managing daily attendance and activity tracking.  
+Users can easily check their work schedules, log presence, review attendance history, and manage their profiles all in one application.
 
-### Attendance Reports
-- Daily, weekly, and monthly reports on employee attendance.
-- Graphs and tables for attendance data analysis.
+---
 
-### Leave and Permission Management
-- Online submission of leave and permission requests.
-- Approval or rejection of leave requests by managers.
+## 2. Key Features
+- Dashboard with daily work schedule and presence information  
+- Activity screen with detailed attendance records (daily, weekly, monthly)  
+- Profile page with employee details and settings  
+- Quick access to key actions: Task, Shift, Report, Permit, Overtime, and Notes  
+- Bottom navigation bar for smooth navigation between sections
 
-### Payroll System Integration
-- Salary calculation based on attendance.
-- Integration with payroll systems to facilitate payments.
+---
 
-### Notifications and Reminders
-- Automatic reminders for check-in/check-out.
-- Notifications for leave requests or schedule changes.
+## 3. Design Focus
+- UI Style: Clean, neutral tone, and professional layout for enterprise use  
+- UX Goals: Quick information access, clear action hierarchy, and minimal friction  
+- Component System: Modular card-based layout for flexible scalability  
+- User Journey: Check schedule → Clock in/out → View activity → Manage profile
 
-### Authentication and Security
-- Integration with secure login systems such as Google Sign-In or biometrics.
-- Access control settings for various user levels (employee, manager, admin).
+---
 
-### Performance Analysis and Reporting
-- Productivity analysis based on attendance.
-- Individual or team performance reports.
+## 4. Tools and Technologies
+- Frontend : Swift & SwiftUI  
+- Backend : Vapor  
+- UI & UX : Figma  
+- Database : PostgreSQL  
+- IDE : Xcode  
 
-## Roles and Permissions
+---
 
-### 1. Employee
+## 5. About This Project
+This is a conceptual and educational project, not a production-ready system.  
+It was created to demonstrate:
+- UI/UX design and layout composition for enterprise mobile apps  
+- Integration planning between frontend, backend, and database  
+- Focus on usability, clarity, and responsive interface for employee workflows
 
-#### Tasks:
-- Perform check-in and check-out to record attendance.
-- Submit leave and permission requests.
-- View work schedules.
-- Receive notifications related to schedules, leave, and check-in/check-out reminders.
+---
 
-#### Permissions:
-- Access to attendance recording features.
-- Access to view and submit leave and permission requests.
-- Access to view work schedules.
-- Receive notifications and reminders.
+## Author
+**Kukuh Nur Pratama**  
+iOS Developer and Apple Ecosystem Enthusiast  
+GitHub: [pratama6624](https://github.com/pratama6624)  
+LinkedIn: [linkedin.com/in/kukuhpratama](https://www.linkedin.com/in/kukuhpratama)
 
-### 2. Manager
+---
 
-#### Tasks:
-- Manage work schedules for the team.
-- Approve or reject leave and permission requests from employees.
-- View and analyze attendance reports for the team.
-- Receive notifications related to leave requests and schedule changes.
-
-#### Permissions:
-- All employee permissions.
-- Access to manage team work schedules.
-- Access to approve or reject leave and permission requests.
-- Access to view attendance reports for the team.
-- Receive notifications related to leave and permission requests from team members.
-
-### 3. Administrator
-
-#### Tasks:
-- Manage and configure the attendance system.
-- Add, edit, or delete employee data.
-- Manage integration with the payroll system.
-- Manage access rights and security settings.
-
-#### Permissions:
-- All manager permissions.
-- Access to manage and configure the attendance system.
-- Full access to manage employee data.
-- Access to manage payroll system integration.
-- Access to manage access rights and security settings.
-
-## Detailed Permissions
-
-### Employee
-- **Attendance Recording**: Check-in and check-out.
-- **Leave and Permission Management**: Submit leave and permission requests.
-- **Schedule Management**: View work schedules.
-- **Notifications and Reminders**: Receive notifications and reminders.
-
-### Manager
-- **Attendance Recording**: Check-in and check-out.
-- **Leave and Permission Management**: Submit leave and permission requests, approve or reject employee leave requests.
-- **Schedule Management**: View and manage work schedules.
-- **Notifications and Reminders**: Receive notifications and reminders.
-- **Attendance Reports**: View attendance reports for the team.
-
-### Administrator
-- **Attendance Recording**: Check-in and check-out.
-- **Leave and Permission Management**: Submit leave and permission requests, approve or reject employee leave requests.
-- **Schedule Management**: View and manage work schedules.
-- **Notifications and Reminders**: Receive notifications and reminders.
-- **Attendance Reports**: View attendance reports for the team.
-- **System Configuration**: Manage and configure the attendance system.
-- **Employee Data Management**: Add, edit, or delete employee data.
-- **Payroll Integration**: Manage integration with the payroll system.
-- **Access and Security Management**: Manage access rights and security settings.
-
-## Getting Started
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-- Xcode 12 or later
-- Swift 5.3 or later
-- CocoaPods (if using external libraries)
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your-username/AttendancePro.git
+"Good design makes complex systems feel effortless to use."
